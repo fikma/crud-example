@@ -8,4 +8,6 @@
 - buat file kosong dengan nama database.sqlite dan copy pathnya
 - salin atau rename .env.example menjadi .env
 - edit .env dengan text editor, kemudian ubah DB_CONNECTION=sqlite, DB_DataBASe=pathDatabaseYangSebelumnyasudah dibuat
-- php run serve
+- php artisan migrate:fresh
+- php artisan db:seed
+- php artisan serve
